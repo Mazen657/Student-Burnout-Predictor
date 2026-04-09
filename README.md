@@ -66,19 +66,11 @@ streamlit run app.py
 ```
 student-burnout-predictor/
 │
-├── app.py                    # Streamlit web app
-├── requirements.txt          # Python dependencies
-├── README.md                 # Project documentation
-├── .gitignore                # Excludes CSV + cache files
-│
-├── model_artifacts/
-│   ├── best_model.pkl        # Best trained model
-│   ├── scaler.pkl            # StandardScaler
-│   └── feature_meta.json     # Feature names + encoding maps
-│
-├── confusion_matrices.png    # Model comparison charts
-├── feature_importance.png    # Top features chart
-└── eda_new_labels.png        # Burnout score distribution
+├── app.py                                # Streamlit web app
+├── requirements.txt                      # Python dependencies
+├── README.md                             # Project documentation
+├── .gitignore                            # Excludes CSV + cache files
+└── Student_Burnout_predictor_App.ipynb   # Notebook for EDA, data preprocessing, model building, and experimentation
 ```
 
 ---
